@@ -1,0 +1,145 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Index page styles */
+
+#index.html {
+  text-align: center;
+}
+
+#events-list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+#events-list li {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#events-list li:hover {
+  background-color: #f7f7f7;
+}
+
+/* Event page styles */
+
+#event-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#event-description {
+  margin-bottom: 20px;
+}
+
+#event-date, #event-time, #event-location {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#rsvp-button {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#rsvp-button:hover {
+  background-color: #23527c;
+}
+
+/* RSVP page styles */
+
+#rsvp-form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#response {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#rsvp-form button[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#rsvp-form button[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+/* Attendees page styles */
+
+#attendees-list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+#attendees-list li {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendees-list li:hover {
+  background-color: #f7f7f7;
+}
